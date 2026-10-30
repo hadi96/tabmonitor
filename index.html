@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tab Monitor Privacy Policy</title>
+<meta name="description" content="How Tab Monitor for Android and Mac handles your data: the screen and your touches only travel between your own devices.">
+<style>
+  /* The colors of the Android app's theme (lib/src/theme.dart). No outside fonts or scripts. */
+  :root {
+    color-scheme: light dark;
+    --text: #1d1d1f;
+    --muted: #666666;
+    --background: #ffffff;
+    --rule: rgba(0, 0, 0, 0.12);
+    --link: #006ee6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #e6e6e6;
+      --muted: #b3b3b3;
+      --background: #121212;
+      --rule: rgba(255, 255, 255, 0.14);
+      --link: #4da3ff;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 48px 20px 64px;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 8px;
+  }
+  .updated {
+    color: var(--muted);
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 36px 0 10px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+  }
+  p, li {
+    margin: 0 0 12px;
+  }
+  ul {
+    margin: 0 0 12px;
+    padding-left: 1.25em;
+  }
+  a {
+    color: var(--link);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tab Monitor privacy policy</h1>
+  <p class="updated">Last updated: <time datetime="2026-10-31">31 October 2026</time></p>
+
+  <p>Tab Monitor is made of two apps: Tab Monitor for Android and Tab Monitor for Mac. This policy covers both.</p>
+
+  <h2>What the apps do with your data</h2>
+  <p>Tab Monitor shows your Mac’s screen on your Android device and sends your touches back to the Mac as mouse input. The screen picture and the touch input travel directly between your own devices, over your local network or a USB cable. They are never sent to us or to anyone else, and they are not stored: each frame is shown and then discarded.</p>
+  <p>We do not collect, store, sell or share any personal data. The apps have no account, no advertising, no analytics and no crash reporting.</p>
+
+  <h2>What stays on your devices</h2>
+  <ul>
+    <li><strong>Android app</strong>: the IP address and port you last typed in, so you don’t have to type them again, and a pairing key the app creates in the device’s keystore. The key never leaves the device. Uninstalling the app removes both.</li>
+    <li><strong>Mac app</strong>: your display settings (mode, scale, stream resolution, frame rate, bitrate and the on/off options), and the names and public keys of the tablets you paired. A public key only lets the Mac recognize a tablet; it can’t be used to connect as that tablet. All of this stays on the Mac.</li>
+  </ul>
+
+  <h2>Network and permissions</h2>
+  <ul>
+    <li><strong>Android</strong>: network access, to receive the screen and send touches; Wi-Fi and multicast access, to find Macs on your local network with Bonjour (mDNS). The app does not use the internet beyond your local network.</li>
+    <li><strong>Mac</strong>: Screen Recording, to capture the screen you choose to show; Accessibility, to turn your touches into mouse input; local network access, to accept connections from your Android device.</li>
+  </ul>
+  <p>A tablet has to type a code shown on the Mac before it can connect for the first time, so other devices on the network can’t connect to your Mac. The connection between your devices is not encrypted, though: anyone on the same network who can see the traffic could see the picture. Use Wi-Fi only on networks you trust, or connect over USB.</p>
+
+  <h2>Children</h2>
+  <p>Tab Monitor is not directed at children and collects no data from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted at this address with a new date.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:hadisaputra55@gmail.com">hadisaputra55@gmail.com</a></p>
+</main>
+</body>
+</html>
